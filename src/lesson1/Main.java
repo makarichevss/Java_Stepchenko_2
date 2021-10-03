@@ -15,8 +15,4 @@ public class Main {
         Stream<Integer> integerStream = Stream.of(1, 5, 6, 9);
         System.out.print(integerStream);
     }
-
-    public void method(int a, int b) {
-
-    }
 }
