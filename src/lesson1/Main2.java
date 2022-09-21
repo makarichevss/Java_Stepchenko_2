@@ -15,7 +15,7 @@ public class Main2 {
 		list.add(employee2);
 		list.add(employee3);
 		System.out.println(list);
-		Collections.sort(list, new SalaryComparator());
+		list.sort(new SalaryComparator());
 		System.out.println(list);
 	}
 }
